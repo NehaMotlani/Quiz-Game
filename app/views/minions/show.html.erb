@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @minion.question %>
+</p>
+
+<p>
+  <strong>Option1:</strong>
+  <%= @minion.option1 %>
+</p>
+
+<p>
+  <strong>Option2:</strong>
+  <%= @minion.option2 %>
+</p>
+
+<p>
+  <strong>Option3:</strong>
+  <%= @minion.option3 %>
+</p>
+
+<p>
+  <strong>Option4:</strong>
+  <%= @minion.option4 %>
+</p>
+
+<p>
+  <strong>Ans:</strong>
+  <%= @minion.ans %>
+</p>
+
+<%= link_to 'Edit', edit_minion_path(@minion) %> |
+<%= link_to 'Back', minions_path %>
